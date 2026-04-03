@@ -16,23 +16,7 @@ export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-white flex flex-col">
       
-      {/* ─── Header (Simplified, matches Home.tsx nav style) ───────────────── */}
-      <header className="w-full bg-[#0b0f2b] py-4 sticky top-0 z-50 shadow-md">
-        <div className="max-w-7xl mx-auto px-6 md:px-8 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2">
-            {/* Placeholder Logo - Replace with your actual logo SVG/Image */}
-            <div className="text-[#d3b06e] font-serif text-2xl font-bold tracking-wider">
-              IDEAL GROUP
-            </div>
-          </Link>
-          <nav className="hidden md:flex gap-8 text-sm tracking-widest uppercase text-gray-300">
-            <Link to="/" className="hover:text-[#d3b06e] transition-colors">Home</Link>
-            <Link to="/projects" className="hover:text-[#d3b06e] transition-colors">Projects</Link>
-            <Link to="/about" className="hover:text-[#d3b06e] transition-colors">About</Link>
-            <Link to="/contact" className="hover:text-[#d3b06e] transition-colors">Contact</Link>
-          </nav>
-        </div>
-      </header>
+   
 
       {/* ─── Hero Section ──────────────────────────────────────────────────── */}
       <section className="relative w-full bg-[#f4f1ec] py-20 md:py-28 overflow-hidden">
