@@ -1,0 +1,85 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* In index.css or Tailwind config */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+.nav-link {
+    @apply text-navy-blue hover:text-gold-yellow transition-all duration-300 font-medium;
+}
+
+.mobile-link {
+    @apply block w-full text-left py-2 text-navy-blue hover:text-gold-yellow;
+}
+
+html.lenis {
+    height: auto;
+}
+
+html.lenis body {
+    overflow: hidden;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto;
+}
+
+/* global.css or component.module.css (scoped if using modules) */
+.bg-size-md {
+    background-size: 300px;
+    /* default mobile */
+}
+
+@media (min-width: 768px) {
+    .bg-size-md {
+        background-size: 1100px;
+    }
+}

@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+html.lenis {
+  height: auto;
+}
+
+html.lenis body {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth {
+  -webkit-tap-highlight-color: white
+}
+
+/* global.css or component.module.css (scoped if using modules) */
+.bg-size-md {
+  background-size: 300px;
+  /* default mobile */
+}
+
+@media (min-width: 768px) {
+  .bg-size-md {
+    background-size: 1100px;
+  }
+}
