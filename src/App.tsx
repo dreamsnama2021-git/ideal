@@ -14,6 +14,8 @@ import BlogPage from "./pages/BlogPage";
 import BlogDetail from "./pages/BlogDetail";
 import CompletedProjects from "./pages/CompletedProjects";
 import HeavensPage from "./pages/Heavens";
+import PrivacyPolicy from "./pages/Privacy";
+
 // import AccianoVillasComponent from "./pages/Acciano";
 // Lazy imports
 const MainLayout = lazy(() => import("./layouts/MainLayout"));
@@ -72,6 +74,7 @@ const App = () => {
           <Route path="*" element={<NotFound />} />
           <Route path="/acciano-villa" element={<AccianoVillasComponent />} />
           <Route path="/heavens-villa" element={<HeavensPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Route>
       </Routes>
     ),

@@ -29,7 +29,7 @@ export default function CopyrightStrip() {
           <span className="flex items-center gap-1">
             Designed by{' '}
             <a 
-              href="https://greensmedia.com" 
+              href="https://greensmedia.co.in" 
               target="_blank" 
               rel="noopener noreferrer"
               className="underline hover:text-gray-700 transition-colors font-medium"
