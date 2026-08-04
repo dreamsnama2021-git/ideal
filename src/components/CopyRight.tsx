@@ -37,6 +37,18 @@ export default function CopyrightStrip() {
               Greens Media
             </a>
           </span>
+          {/* Designed By */}
+          <span className="flex items-center gap-1">
+            &{' '}
+            <a 
+              href="https://amforstudio.in" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="underline hover:text-gray-700 transition-colors font-medium"
+            >
+              Abu Qatada
+            </a>
+          </span>
           
         </div>
       </div>
