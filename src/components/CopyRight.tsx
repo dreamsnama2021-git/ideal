@@ -39,7 +39,7 @@ export default function CopyrightStrip() {
           </span>
           {/* Designed By */}
           <span className="flex items-center gap-1">
-            &{' '}
+            {' '}&{' '}
             <a 
               href="https://amforstudio.in" 
               target="_blank" 
