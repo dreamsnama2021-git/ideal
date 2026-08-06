@@ -39,12 +39,12 @@ export default function CopyrightStrip() {
           </span>
           {/* Designed By */}
          <span className="flex items-center gap-1">
-  &nbsp;&{' '}
+  &nbsp;
   <a 
-    href="https://amforstudio.in" 
+    href="https://www.amforstudio.in/" 
     target="_blank" 
     rel="noopener noreferrer"
-    className="underline hover:text-gray-700 transition-colors font-medium"
+    className="underline text-white transition-colors font-medium"
   >
     Abu Qatada
   </a>
