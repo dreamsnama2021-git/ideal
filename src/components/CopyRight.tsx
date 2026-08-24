@@ -42,8 +42,6 @@ export default function CopyrightStrip() {
   &nbsp;
   <a 
     href="https://www.amforstudio.in/" 
-    target="_blank" 
-    rel="noopener noreferrer"
     className="underline text-white transition-colors font-medium"
   >
     Abu Qatada
